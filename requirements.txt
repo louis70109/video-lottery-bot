@@ -1,0 +1,6 @@
+flask==1.0.2
+flask-restful
+flask-Cors
+python-dotenv
+gunicorn
+git+https://github.com/louis70109/line-bot-sdk-python.git@support_auguest_api
