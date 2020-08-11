@@ -1,15 +1,9 @@
+# LINE VideoPlayComplete & Unsend event handle bot
 
-# LINE Icon Switch API sample
+News:
 
-LINE new API - [Icon Switch](https://developers.line.biz/zh-hant/reference/messaging-api/#icon-nickname-switch): this API can change icon and display name in same **LINE BOT**
-
-# Trigger text
-This bot will catch trigger text to change name and avatar !!🎉
-- Sally
-- Brown
-- Cony
-
-![](https://i.imgur.com/TbtdNFjl.png)
+- [Video play complete](https://developers.line.biz/en/reference/messaging-api/#video-viewing-complete)
+- [Unsend](https://developers.line.biz/en/reference/messaging-api/#unsend-event)
 
 ## Heroku
 
@@ -48,7 +42,7 @@ python api.py
 ngrok http 5000
 ```
 
-or maybe you have npm enviroment:
+or maybe you have npm environment:
 
 ```
 npx ngrok http 5000
@@ -57,30 +51,6 @@ npx ngrok http 5000
 
 3. Copy url to LINE Developer Console
 
-## If you have AWS account
-1. Install serverless via npm:
-
-```bash=
-$ npm install -g serverless
-```
-
-2. Setup your **AWS** ceritficate
-
-```bash=
-export AWS_ACCESS_KEY_ID=<your-key-here>
-export AWS_SECRET_ACCESS_KEY=<your-secret-key-here>
-```
-
-3. Deploy the example:
-
-```bash=
-npm install
-pip install -r requirements.txt --user
-serverless wsgi serve # local testing
-serverless deploy     # deploy to AWS
-```
-
-4. If deploy, copy the url to LINE Developer Console
 # License
 
 MIT License
