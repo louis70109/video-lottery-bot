@@ -1,9 +1,8 @@
-# LINE VideoPlayComplete & Unsend event handle bot
+# LINE lottery bot by VideoPlayComplete
 
 News:
 
 - [Video play complete](https://developers.line.biz/en/reference/messaging-api/#video-viewing-complete)
-- [Unsend](https://developers.line.biz/en/reference/messaging-api/#unsend-event)
 
 ## Heroku
 
