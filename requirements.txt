@@ -3,4 +3,5 @@ flask-restful
 flask-Cors
 python-dotenv
 gunicorn
+psycopg2-binary
 git+https://github.com/louis70109/line-bot-sdk-python.git@support_auguest_api
